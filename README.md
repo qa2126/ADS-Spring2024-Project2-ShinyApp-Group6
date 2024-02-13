@@ -19,12 +19,12 @@ The **learning goals** for this project is:
 *The above general statement about project 2 can be removed once you are finished with your project. It is optional.
 
 ## Project Title Lorem ipsum dolor sit amet
-Term: Fall 2023
+Term: Spring 2024
 
-+ Team #
++ Team 6
 + **Projec title**: + Team members
-	+ team member 1
-	+ team member 2
+	+ Colin Chan
+	+ Qu Fei An
 	+ team member 3
 	+ team member 4
 	+ team member 5
