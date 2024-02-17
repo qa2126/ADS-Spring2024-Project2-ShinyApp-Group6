@@ -7,6 +7,28 @@ import seaborn as sns
 import pandas as pd
 import ipyleaflet as L
 from shinywidgets import output_widget, register_widget, reactive_read,render_widget
+import os
+
+
+## Joining data sets and getting the data we want for visualization
+
+script_directory = os.path.dirname(os.path.realpath(__file__))
+parent_directory = os.path.dirname(script_directory)
+file_name = os.path.join(parent_directory, 'data', 'citibike_data.csv')
+bike = pd.read_csv(file_name)
+file_name2 = os.path.join(parent_directory, 'data', 'WeatherNYC.csv')
+weather = pd.read_csv(file_name2)
+pd.set_option('display.max_columns', None)
+weather['date'] = weather['DATE']
+df = pd.merge(bike, weather, on = 'date')
+
+## how do we want to approximate usage? Do we assume to higher stocks indicate more usage?
+## alternatively we can download supplementary data from citi, but that would require work
+
+
+
+
+## App
 
 expui.page_opts(title="Citibike And WeatherNYC", fillable=True)
 
@@ -113,3 +135,4 @@ with expui.nav_panel("Map"):
 #     @render.data_frame
 #     def table():
 #         return px.data.tips()
+
