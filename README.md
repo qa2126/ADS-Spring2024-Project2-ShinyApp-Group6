@@ -1,4 +1,4 @@
-# Project 2: Shiny App Development
+# Project 2: Exploring FEMA Disaster Declarations with a Shiny App
 
 ### [Project Description](doc/project2_desc.md)
 
@@ -16,7 +16,7 @@ The **learning goals** for this project is:
 - systems development/design life cycle
 - shiny app/shiny server
 
-## FEMA Disaster Declarations
+## Exploring FEMA Disaster Declarations with a Shiny App
 Term: Spring 2024
 
 + Team 6
