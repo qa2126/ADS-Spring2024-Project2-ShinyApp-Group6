@@ -25,6 +25,7 @@ Term: Spring 2024
 	+ Qu Fei An
 	+ Jia Wei
 	+ Wenjun Yang
++ **Link of shiny app**: [app](https://colin1366.shinyapps.io/STAT5243_24Spring_Group6_shiny_app/)
 
 + **Project summary**: Our group builds a shiny app to visualize declared disaster events in the U.S. from 1953 to 2024. The [data set](https://www.fema.gov/openfema-data-page/disaster-declarations-summaries-v2) from FEMA records all federally declared disasters from 1953. We cleaned and wrangle the data to make it useful for shiny app. This app aims to featrue the interactive visualization on bar plot, map plot, and time plot. Users can input one or some featrues of the data set to access interactive charts and graphs. Based on the charts and graphs in the app, we look back the past disaster events and find some patterns. These patterns would benefit to disaster prevention. 
 
