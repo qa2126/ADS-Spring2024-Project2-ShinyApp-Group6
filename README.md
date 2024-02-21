@@ -20,7 +20,7 @@ The **learning goals** for this project is:
 Term: Spring 2024
 
 + Team 6
-+ **Projec title**: + Team members
++ **Team members**:
 	+ Colin Chan
 	+ Qu Fei An
 	+ Jia Wei
