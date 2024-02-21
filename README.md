@@ -4,7 +4,7 @@
 
 Term: Fall 2023
 
-![screenshot](doc/figs/map.jpg)
+![screenshot](doc/screenshot.png)
 
 In this second project of GR5243 Applied Data Science, we develop a *Exploratory Data Analysis and Visualization* shiny app using one of **the OpenFEMA data sets** of your choice.  
 
